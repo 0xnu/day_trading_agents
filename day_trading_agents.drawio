@@ -1,0 +1,212 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram id="c1hSBBAoWu44DYVpTtl6" name="day_trading_system">
+    <mxGraphModel dx="2390" dy="1423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-1" value="Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="170" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-2" value="Config" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="513" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-3" value="DayTradingAgents" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="713" y="89" width="152" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-4" value="MarketDataAgent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="963" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-5" value="TechnicalAnalysisAgent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1163" y="89" width="191" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-6" value="RiskManagementAgent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1404" y="89" width="188" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-7" value="SignalStorage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1642" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-8" value="MarketSchedule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1842" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-9" value="Logger/Debug" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="2042" y="89" width="150" height="1382" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-10" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="778" y="623" width="950" height="413" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-11" value="[For each stock]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OtThAEZf-ZVdJEkLoWCn-10">
+          <mxGeometry x="40" width="910" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-12" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="234" y="578" width="1694" height="605" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-13" value="[Trading Day]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OtThAEZf-ZVdJEkLoWCn-12">
+          <mxGeometry x="30" width="1664" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-14" value="[Not Trading Day]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="OtThAEZf-ZVdJEkLoWCn-12">
+          <mxGeometry y="473" width="1694" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-15" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="234" y="1193" width="1894" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-16" value="[Error Occurs]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="OtThAEZf-ZVdJEkLoWCn-15">
+          <mxGeometry x="30" width="1864" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-17" value="Configure logging &amp; debug" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-1" target="OtThAEZf-ZVdJEkLoWCn-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-18" value="Create Config(openai_api_key, paths)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-1" target="OtThAEZf-ZVdJEkLoWCn-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-19" value="Create DayTradingAgents(config)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-1" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-20" value="Create MarketDataAgent" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-21" value="Create TechnicalAnalysisAgent" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="374" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-22" value="Create RiskManagementAgent" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1152" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-23" value="Initialize SignalStorage" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="466" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-24" value="run_trading_session()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-1" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="526" y="512" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-25" value="is_trading_day()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1362" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-26" value="Collect market data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="922" y="694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-27" value="Market data result" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-4" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-28" value="Analyse market data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1032" y="786" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-29" value="Technical signals" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-5" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1035" y="832" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-30" value="Evaluate risks" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1152" y="878" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-31" value="Risk assessment" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-6" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="924" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-32" value="Save trading signals" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1262" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-33" value="Storage confirmation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-7" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1265" y="1016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-34" value="Next trading day" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-8" target="OtThAEZf-ZVdJEkLoWCn-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="1117" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-35" value="Exit with next day info" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-36" value="Log error details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1462" y="1264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-37" value="Raise exception" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OtThAEZf-ZVdJEkLoWCn-38" value="Session complete" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="OtThAEZf-ZVdJEkLoWCn-3" target="OtThAEZf-ZVdJEkLoWCn-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="529" y="1366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

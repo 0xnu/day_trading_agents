@@ -1,0 +1,8 @@
+crewai
+icecream
+langchain-openai
+openai
+polars
+python-dotenv
+tqdm
+yfinance

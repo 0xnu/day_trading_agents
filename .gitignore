@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.ruff_cache
+__pycache__
+*.csv
+*.json
+venv
+.venv
