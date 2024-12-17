@@ -1,8 +1,10 @@
 crewai
 icecream
 langchain-openai
-openai
+numpy
+pandas
 polars
+pydantic
 python-dotenv
+requests
 tqdm
-yfinance
