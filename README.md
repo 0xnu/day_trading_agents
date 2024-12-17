@@ -247,8 +247,8 @@ This project is licensed under the [BSD 3-Clause](LICENSE) License.
   year         = 2024,
   version      = {2.0.0},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.14502412},
-  url          = {https://doi.org/10.5281/zenodo.14502412}
+  doi          = {10.5281/zenodo.14511067},
+  url          = {https://doi.org/10.5281/zenodo.14511067}
 }
 ```
 
