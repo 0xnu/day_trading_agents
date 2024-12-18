@@ -1,0 +1,18 @@
+[
+    {
+        "symbol": "GOOGL",
+        "date": "2024-12-17 22:51:48.945564",
+        "indicator": "MACD",
+        "value": 5.66703904785237,
+        "signal": "BUY",
+        "confidence": 0.7,
+        "technical_data": {
+            "rsi": 68.58438718013791,
+            "macd": 5.66703904785237,
+            "macd_signal": 3.164300322279514,
+            "bb_upper": 198.90389267169996,
+            "bb_middle": 177.7895,
+            "bb_lower": 156.67510732830004
+        }
+    }
+]
